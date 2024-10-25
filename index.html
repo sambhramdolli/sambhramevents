@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sambhrama Events</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</header>
+
+
+
+<body>
+    <!-- Navbar -->
+        <nav>
+            <div class="logo">
+                <h1>Sambhram Events</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#event-categories">Event Categories</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+
+            <!-- Menu icon for mobile view -->
+        <i class="fa-solid fa-bars menu-icon" onclick="toggleMenu()"></i>
+
+
+        </nav>
+
+    <!-- Image Slider -->
+    <section class="slider">
+        <div class="slides">
+            <div class="slide active">
+                <img src="images/image1.jpg" alt="Event Image 1">
+            </div>
+            <div class="slide">
+                <img src="images/image2.jpg" alt="Event Image 2">
+            </div>
+            <div class="slide">
+                <img src="images/image3.jpg" alt="Event Image 3">
+            </div>
+            <div class="slide">
+                <img src="images/image4.jpg" alt="Event Image 4">
+            </div>
+        </div>
+
+        <!-- Dots Navigation -->
+        <div class="dots">
+            <span class="dot" onclick="changeSlide(0)"></span>
+            <span class="dot" onclick="changeSlide(1)"></span>
+            <span class="dot" onclick="changeSlide(2)"></span>
+            <span class="dot" onclick="changeSlide(3)"></span>
+        </div>
+    </section>
+
+
+    <!-- About Us Section -->
+    <section id="about" class="about-us">
+        <div class="about-text">
+            <h2>About Us</h2>
+            <p>Welcome to Sambhram Events, where we turn visions into unforgettable experiences! We specialize in crafting unique, tailored events that leave lasting impressions, whether it's a corporate gathering, wedding, cultural fest, or private celebration. At Sambhram Events, we believe in meticulous planning, creative design, and seamless execution to bring every detail to life.
+
+                With a dedicated team passionate about event management, we combine expertise with innovation to deliver events that are not only beautifully curated but also resonate with your style and aspirations. Trust Sambhram Events to transform your special moments into extraordinary memories.</p>
+                
+                <p>Join us, and let’s create something amazing together!</p>
+        </div>
+        <div class="about-image">
+            <img src="images/about.jpeg" alt="About Us Image">
+        </div>
+    </section>
+    
+    <!-- Event Categories Section -->
+<section id="event-categories" class="event-categories">
+    <h2>Event Categories</h2>
+    <div class="event-box">
+        <div class="event-image">
+            <img src="images/image11.jpg" alt="Wedding Event">
+        </div>
+        <div class="event-description">
+            <h3>Wedding</h3>
+            <p>"Crafting Your Dream Wedding Day"</p>
+               <p> We understand that your wedding day is one of the most cherished moments of your life. From the grandest details to the smallest touches, our dedicated team will bring your vision to life, ensuring a day as beautiful as your love story.</p>
+        </div>
+    </div>
+    
+    <div class="event-box">
+        <div class="event-image">
+            <img src="images/image12.jpg" alt="Birthday Event">
+        </div>
+        <div class="event-description">
+            <h3>Birthday</h3>
+            <p>"Unleashing Joy and Fun for Every Age"</p>
+                <p>Whether you're celebrating a sweet 16, a 30th milestone, or a child's themed party, we’re here to make sure every detail is perfect. From theme selection to entertainment, we’ll make sure your birthday is nothing short of spectacular.</p>
+        </div>
+    </div>
+    
+    <div class="event-box">
+        <div class="event-image">
+            <img src="images/image13.jpg" alt="Festivals Event">
+        </div>
+        <div class="event-description">
+            <h3>Festivals</h3>
+            <p>"Designing Festivals that Spark Joy and Togetherness"</p>
+            <p>Our festival event management services ensure that every element of the celebration is perfectly coordinated. Whether it’s a large-scale event or an intimate festival gathering, we deliver seamless and festive experiences.</p>
+        </div>
+    </div>
+
+    <div class="event-box">
+        <div class="event-image">
+            <img src="images/image14.jpg" alt="Anniversary Event">
+        </div>
+        <div class="event-description">
+            <h3>Anniversary</h3>
+            <p>"Celebrating Love, Milestones, and Memories"</p>
+            <p>Anniversaries are a time to reflect on the beautiful moments shared and the journey of love. We help you celebrate your milestone with elegance and joy, creating an unforgettable experience for you and your loved ones.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="services-container">
+        <div class="service-box">
+            <img src="images/vendor.jpg" alt="Vendor Management">
+            <h3>Vendor Management</h3>
+        </div>
+        <div class="service-box">
+            <img src="images/entertainment.png" alt="Entertainment">
+            <h3>Entertainment</h3>
+        </div>
+        <div class="service-box">
+            <img src="images/management.jpg" alt="Hospitality & Guest Management">
+            <h3>Hospitality & Guest Management</h3>
+        </div>
+        <div class="service-box">
+            <img src="images/invitation.jpg" alt="Invitation & Gifts">
+            <h3>Invitation & Gifts</h3>
+        </div>
+        <div class="service-box">
+            <img src="images/Decor.jpg" alt="Decor Management">
+            <h3>Decor Management</h3>
+        </div>
+        <div class="service-box">
+            <img src="images/stalls.jpg" alt="Stalls & Shows">
+            <h3>Stalls & Shows</h3>
+        </div>
+        <div class="service-box">
+            <img src="images/food.jpg" alt="Food & Beverages">
+            <h3>Food & Beverages</h3>
+        </div>
+        <div class="service-box">
+            <img src="images/Destination.jpg" alt="Destination & Venues">
+            <h3>Destination & Venues</h3>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section id="contacts" class="footer">
+    <div class="footer-container">
+        <div class="contact-info">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-phone"></i> +91 9606401866</p>
+            <p><i class="fas fa-envelope"></i> sambhramaevents@gmail.com</p>
+            <p><i class="fa-brands fa-instagram"></i> sambhrama_events</p>
+            <p><i class="fas fa-map-marker-alt"></i> #121 1st cross Basavangar Ghataprabha,Gokak - 591306 </p>
+        </div>
+        
+        <div class="inquiry-form">
+            <h3>Inquiry Form</h3>
+            <form id="inquiryForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="contact">Contact Number:</label>
+                    <input type="tel" id="contact" name="contact" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="copyright">
+    <p>© Copyright 2024 All Rights Reserved.. </p>
+    <p>Made with <i class="fa-regular fa-heart"></i> by Sambhram</p>
+</div>
+
+
+    </div>
+</section>
+
+
+</body>
+</html>
